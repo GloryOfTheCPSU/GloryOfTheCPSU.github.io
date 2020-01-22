@@ -1,5 +1,5 @@
 h1 {
-  color: #6c2020;
+  color: #faf000;
   text-align: center;
   font-size: 36px;
   font-family: 'Kaushan Script', cursive;
@@ -27,8 +27,8 @@ html {
   width: 100%;
   background-image: url(https://news-r.ru/upload/iblock/7dd/7dda1d8c838d16dfddadf6ef9ba87d38.jpg);
   background-position: center;
-  
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -37,7 +37,6 @@ body {
 }
 
 .main-header {
-
   flex: 0 1 auto;
 }
 
@@ -66,7 +65,6 @@ body {
   max-width: 140px;
   min-width: 80px;
   transition: transform 0.9s ease-in-out;
-
 }
 
 .thumbnail-item:hover {
@@ -103,8 +101,9 @@ body {
 }
 
 .detail-image {
-  border-radius: 6px;
-  width: 90%;
+  border-radius: 66px;
+  /*width: 90%;*/
+  width: 75%;
 }
 
 .thumbnail-image {

@@ -1,75 +1,85 @@
-@media all and (min-width: 768px){
-  .main-content{
+@media all and (min-width: 768px) {
+  .main-content {
     flex-direction: row;
     overflow: hidden;
   }
-  .thumbnail-list{
+
+  .thumbnail-item {
+    max-width: 80px;
+    min-width: 60px;
+  }
+
+  .thumbnail-list {
     width: 100%;
     background-color: inherit;
     flex-direction: column;
-    order:0!important;
+    order: 0 !important;
     margin-left: 10px;
     padding: 25px;
   }
-  .detail-image-container{  
-    align-items: flex-start!important;
+
+  .detail-image-container {
+    align-items: flex-start !important;
   }
-  .detail-image-wrapper{
+
+  .detail-image-wrapper {
     display: flex;
-    width: 80vw;
     flex-direction: column;
     margin: 20px 0 0 5px;
-    justify-content: flex-start;
+    width: 70vw;
   }
-  .detail-image-title{
-    top: 0;
+
+  .detail-image-title {
+    position: relative;
+    bottom: 100px;
     left: 0;
-    margin-top: 70px;
-    margin-left: 40px;
-    font-size: 4em;
+    text-align: center;
+    font-size: 2em;
     /*position: relative;
     margin-top: -50px;
-    font-size: 4em;*/ 
+    font-size: 4em;*/
   }
 
-  h1{
-   font-size: 7em;
-  margin-bottom: 10px;
+  h1 {
+    font-size: 7em;
+    margin-bottom: 10px;
   }
+
   .up_down_btn {
-  position: fixed;
-  bottom: 80px;
-  right: 20px;
-  z-index: 9999;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 36px;
-  color: #6c2020;
-  cursor: pointer;
-  display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 36px;
+    color: #6c2020;
+    cursor: pointer;
+    display: none;
+  }
+
+  .up_down_btn:hover {
+    text-decoration: none;
+    background: #6c2020;
+    color: #faf000
+  }
+
+  .up_down_btn-show {
+    display: block;
+  }
+
+  .up_down_btn-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0;
+  }
+
 }
 
-.up_down_btn:hover {
-  text-decoration: none;
-  background: #6c2020;
-  color: #faf000
-}
-
-.up_down_btn-show {
-  display: block;
-}
-
-.up_down_btn-disabled {
-  pointer-events: none;
-  cursor: default;
-  opacity: 0;
-}
-
-}
-@media all and (min-width: 1440px){
-  .detail-image-title{
+@media all and (min-width: 1440px) {
+  .detail-image-title {
     font-size: 8em;
   }
 }
