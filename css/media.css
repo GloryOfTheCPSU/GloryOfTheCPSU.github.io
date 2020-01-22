@@ -1,0 +1,39 @@
+@media all and (min-width: 768px){
+  .main-content{
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .thumbnail-list{
+    width: 100%;
+    background-color: #908989;
+    flex-direction: column;
+    order:0!important;
+    margin-left: 10px;
+    padding: 25px;
+  }
+  .detail-image-container{  
+    align-items: flex-start!important;
+  }
+  .detail-image-wrapper{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    margin: 20px 0 0 5px;
+    justify-content: flex-start;
+  }
+  .detail-image-title{
+    position: relative;
+    margin-top: -50px;
+    font-size: 4em;
+  }
+
+  h1{
+   font-size: 7em;
+  margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 1440px){
+  .detail-image-title{
+    font-size: 8em;
+  }
+}

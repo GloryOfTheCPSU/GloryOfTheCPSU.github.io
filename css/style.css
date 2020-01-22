@@ -1,0 +1,114 @@
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: underline;
+  margin-top: 0;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+html{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #908989;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf000;
+}
+.main-header{
+  background-color:#faf000;
+  flex: 0 1 auto;
+}
+.main-content{
+  flex: 1 1 auto;
+  flex-direction: column;
+  display: flex;
+}
+.thumbnail-list{
+  background-color: #fff;
+  white-space: nowrap;
+  overflow-x: auto;
+  flex: 0 1 auto;
+  order: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 14px;
+  background-color: #908989;
+}
+.thumbnail-item{
+  display: inline-block;
+  border: 1px solid rgb(100%, 100%, 100%, 0.8);
+  border: 1px solid rgba(100%, 100%, 100%, 0.8);
+  max-width: 320px;
+  min-width: 120px;
+  transition: transform 0.9s ease-in-out;
+  
+}
+.thumbnail-item:hover{
+ transform: scale(1.16); 
+}
+.is-tiny{
+  transform: scale(1.09);
+  transition: transform 0ms;
+}
+.detail-image-container{
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-image-wrapper{
+   text-align: center;
+   transition: transform 3s;
+}
+.detail-image-title{
+  color: #fff;
+  font-size: 30px;
+  text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  left: 4px;
+  bottom: -16px;
+}
+.detail-image{
+width: 90%;
+}
+
+.thumbnail-image{
+  width: 100%;
+}
+.thumbnail-title {
+  display: block;
+  margin: 0;
+  padding: 4px 10px;
+  background: rgb(96, 125, 139);
+  color: rgb(202, 238, 255);
+}
+.hidden-detail .detail-image-container{
+  display: none;
+}
+.hidden-detail .thumbnail-list{
+  flex-direction: column;
+  align-items: center;
+}
+.hidden-detail .thumbnail-item{
+  max-width: 80%;
+}
+
