@@ -22,15 +22,14 @@ html{
   padding: 0;
   margin: 0;
   width: 100%;
-  background-color: #908989;
+  background-color:  #faf000;
 }
 body {
   display: flex;
   flex-direction: column;
-  background-color: #faf000;
 }
 .main-header{
-  background-color:#faf000;
+
   flex: 0 1 auto;
 }
 .main-content{
@@ -39,7 +38,6 @@ body {
   display: flex;
 }
 .thumbnail-list{
-  background-color: #fff;
   white-space: nowrap;
   overflow-x: auto;
   flex: 0 1 auto;
@@ -48,7 +46,7 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   padding: 14px;
-  background-color: #908989;
+  background-color: #faf000;
 }
 .thumbnail-item{
   display: inline-block;
