@@ -5,7 +5,7 @@
   }
   .thumbnail-list{
     width: 100%;
-    background-color: #fff500;
+    background-color: inherit;
     flex-direction: column;
     order:0!important;
     margin-left: 10px;
@@ -39,7 +39,7 @@
   .up_down_btn {
   position: fixed;
   bottom: 80px;
-  right: 30px;
+  right: 20px;
   z-index: 9999;
   width: 45px;
   height: 45px;

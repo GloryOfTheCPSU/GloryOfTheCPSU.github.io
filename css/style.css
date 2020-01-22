@@ -25,7 +25,10 @@ html {
   padding: 0;
   margin: 0;
   width: 100%;
-  background-color: #faf000;
+  background-image: url(https://news-r.ru/upload/iblock/7dd/7dda1d8c838d16dfddadf6ef9ba87d38.jpg);
+  background-position: center;
+  
+  background-size: cover;
 }
 
 body {
