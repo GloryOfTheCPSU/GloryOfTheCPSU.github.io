@@ -136,7 +136,10 @@ body {
   max-width: 80%;
 }
 
-
+.blokquot {
+  color: #faf000;
+  text-align: right;
+}
 
 
 .preloader {
@@ -149,6 +152,7 @@ body {
   background: #e0e0e0;
   z-index: 1001;
 }
+
 .preloader-image {
   position: relative;
   top: 50%;
@@ -160,15 +164,18 @@ body {
   text-align: center;
   animation: preloader-rotate 2s infinite linear;
 }
+
 @keyframes preloader-rotate {
   100% {
     transform: rotate(720deg);
   }
 }
+
 .loaded_hiding .preloader {
   transition: 0.3s opacity;
   opacity: 0;
 }
+
 .loaded .preloader {
   display: none;
 }

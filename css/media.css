@@ -30,11 +30,12 @@
   }
 
   .detail-image-title {
-    position: relative;
+    /*position: relative;
     bottom: 100px;
-    left: 0;
-    text-align: center;
+    left: 0;*/
+    position: relative;
     font-size: 2em;
+    bottom: 0px;
     /*position: relative;
     margin-top: -50px;
     font-size: 4em;*/
