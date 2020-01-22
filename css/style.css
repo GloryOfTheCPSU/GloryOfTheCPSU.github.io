@@ -1,5 +1,5 @@
 h1 {
-  color: #ffffff;
+  color: rgb(108, 32, 32);
   text-align: center;
   font-size: 36px;
   font-family: 'Kaushan Script', cursive;
@@ -113,8 +113,12 @@ body {
   display: block;
   margin: 0;
   padding: 4px 10px;
-  background: rgb(96, 125, 139);
-  color: rgb(202, 238, 255);
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  background: #faf000;
+  color: rgb(100, 100, 100);
 }
 
 .hidden-detail .detail-image-container {
