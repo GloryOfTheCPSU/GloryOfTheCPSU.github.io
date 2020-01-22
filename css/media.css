@@ -22,15 +22,51 @@
     justify-content: flex-start;
   }
   .detail-image-title{
-    position: relative;
-    margin-top: -50px;
+    top: 0;
+    left: 0;
+    margin-top: 70px;
+    margin-left: 40px;
     font-size: 4em;
+    /*position: relative;
+    margin-top: -50px;
+    font-size: 4em;*/ 
   }
 
   h1{
    font-size: 7em;
   margin-bottom: 10px;
   }
+  .up_down_btn {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 36px;
+  color: #6c2020;
+  cursor: pointer;
+  display: none;
+}
+
+.up_down_btn:hover {
+  text-decoration: none;
+  background: #6c2020;
+  color: #faf000
+}
+
+.up_down_btn-show {
+  display: block;
+}
+
+.up_down_btn-disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0;
+}
+
 }
 @media all and (min-width: 1440px){
   .detail-image-title{
