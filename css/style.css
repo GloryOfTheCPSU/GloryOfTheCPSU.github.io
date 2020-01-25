@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  padding: 14px;
+  padding: 24px;
   
 
 }
@@ -65,6 +65,7 @@ body {
   max-width: 140px;
   min-width: 80px;
   transition: transform 0.9s ease-in-out;
+  margin-bottom: 10px;
   
 }
 
@@ -115,8 +116,11 @@ body {
 
 .thumbnail-image {
   width: 100%;
-  border: 8px solid #1e8d2a;
-  border-radius: 50%;
+  border: 18px solid #1e8d2a;
+  
+  margin-bottom: -6px;
+  border-radius: 20px 90px 90px 0px;
+  border-right: none;
 }
 
 .thumbnail-title {
@@ -126,7 +130,9 @@ body {
   font-weight: bold;
   color: #ffffff;
   background: #1e8d2a; 
-  border-radius: 20px 0px ;
+  border-radius: 0px 20px;
+  padding: 0px 20px 0px 15px;
+  max-width: 140px;
 }
 
 .hidden-detail .detail-image-container {
