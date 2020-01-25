@@ -83,6 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -20px;
 }
 
 .detail-image-wrapper {
@@ -106,6 +107,9 @@ body {
   /*width: 90%;*/
   width: 85%;
   border: 20px solid #1e8d2a;
+  border-top: 0px;
+  border-bottom: 0px;
+  max-height: 100vh;
 
 }
 

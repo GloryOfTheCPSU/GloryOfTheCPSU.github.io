@@ -13,8 +13,9 @@
     background-color: inherit;
     flex-direction: column;
     order: 0 !important;
-    margin-left: 10px;
     padding: 25px;
+    margin-top: 0;
+ 
   }
 
   .detail-image-container {
@@ -26,18 +27,13 @@
     flex-direction: column;
     margin: 20px 0 0 5px;
     width: 70vw;
+    height: 100vh;
   }
 
   .detail-image-title {
-    /*position: relative;
-    bottom: 100px;
-    left: 0;*/
     position: relative;
-    font-size: 2em;
-    bottom: 0px;
-    /*position: relative;
-    margin-top: -50px;
-    font-size: 4em;*/
+    font-size: 3em;
+    bottom: 70px;
   }
 
   h1 {
@@ -80,6 +76,7 @@
 
 @media all and (min-width: 1440px) {
   .detail-image-title {
-    font-size: 8em;
+    font-size: 4em;
+    bottom: 100px;
   }
 }
