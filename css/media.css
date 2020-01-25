@@ -5,8 +5,8 @@
   }
 
   .thumbnail-item {
-    max-width: 80px;
-    min-width: 60px;
+    max-width: 90px;
+    min-width: 40px;
    
   }
 
@@ -14,7 +14,7 @@
     background-color: inherit;
     flex-direction: column;
     order: 0 !important;
-    padding: 25px;
+    padding-right: 50px;
     margin-top: 0;
     
  
@@ -34,7 +34,7 @@
 
   .detail-image-title {
     position: relative;
-    font-size: 3em;
+    font-size: 2.5em;
     bottom: 70px;
   }
 
