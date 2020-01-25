@@ -10,7 +10,6 @@
   }
 
   .thumbnail-list {
-    width: 100%;
     background-color: inherit;
     flex-direction: column;
     order: 0 !important;

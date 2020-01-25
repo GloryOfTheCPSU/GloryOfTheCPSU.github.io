@@ -24,6 +24,7 @@ a {
 html {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
   width: 100%;
   background-image: url(https://news-r.ru/upload/iblock/7dd/7dda1d8c838d16dfddadf6ef9ba87d38.jpg);
   background-position: center;
@@ -55,16 +56,18 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   padding: 14px;
+  
 
 }
 
 .thumbnail-item {
   display: inline-block;
-  border: 1px solid rgb(100%, 100%, 100%, 0.8);
-  border: 1px solid rgba(100%, 100%, 100%, 0.8);
+ /* border: 1px solid rgb(100%, 100%, 100%, 0.8);
+  border: 1px solid rgba(100%, 100%, 100%, 0.8);*/
   max-width: 140px;
   min-width: 80px;
   transition: transform 0.9s ease-in-out;
+  
 }
 
 .thumbnail-item:hover {
@@ -104,11 +107,15 @@ body {
   border-radius: 66px;
   /*width: 90%;*/
   width: 85%;
+  border: 20px solid #fa9000;
+
 }
 
 .thumbnail-image {
-  border-radius: 4px;
   width: 100%;
+  box-sizing: border-box;
+  border: 15px solid #fa9000;
+  border-radius: 50%;
 }
 
 .thumbnail-title {
@@ -117,9 +124,10 @@ body {
   padding: 4px 10px;
   font-weight: bold;
   text-align: center;
-  font-size: 14px;
-  font-family: sans-serif;
-  background: #faf000;
+  font-size: 20px;
+  
+  background: #fa9000;
+  border-radius: 12px;
   color: rgb(100, 100, 100);
 }
 
@@ -139,6 +147,7 @@ body {
 .blokquot {
   color: #faf000;
   text-align: right;
+  margin-right: 20px;
 }
 
 
@@ -152,7 +161,6 @@ body {
   background: #e0e0e0;
   z-index: 1001;
 }
-
 .preloader-image {
   position: relative;
   top: 50%;
@@ -164,18 +172,15 @@ body {
   text-align: center;
   animation: preloader-rotate 2s infinite linear;
 }
-
 @keyframes preloader-rotate {
   100% {
     transform: rotate(720deg);
   }
 }
-
 .loaded_hiding .preloader {
   transition: 0.3s opacity;
   opacity: 0;
 }
-
 .loaded .preloader {
   display: none;
 }
