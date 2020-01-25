@@ -7,7 +7,7 @@
   .thumbnail-item {
     max-width: 80px;
     min-width: 60px;
-    height: 60vh;
+   
   }
 
   .thumbnail-list {
@@ -29,7 +29,7 @@
     flex-direction: column;
     margin: 20px 0 0 5px;
     width: 70vw;
-   
+    height: 100vh;
   }
 
   .detail-image-title {
