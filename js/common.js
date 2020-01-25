@@ -5,12 +5,12 @@ window.onload = function () {
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }
-var upDownBtn = document.querySelector('.up_down_btn');
-var check;
+let upDownBtn = document.querySelector('.up_down_btn');
+let check;
 
 function trackScroll() {
-  var scrolled = window.pageYOffset;
-  var coords = document.documentElement.clientHeight;
+  let scrolled = window.pageYOffset;
+  let coords = document.documentElement.clientHeight;
   if (scrolled > coords) {
     upDownBtn.classList.add('up_down_btn-show');
     upDownBtn.innerHTML = '&#9650;';
@@ -38,7 +38,7 @@ function backToTop() {
     return;
   } else if (check) {
     (function goBottom() {
-      var match = Math.ceil(window.pageYOffset + document.documentElement.clientHeight);
+      let match = Math.ceil(window.pageYOffset + document.documentElement.clientHeight);
 
       if (match != document.documentElement.scrollHeight) {
         window.scrollBy(0, 80);
