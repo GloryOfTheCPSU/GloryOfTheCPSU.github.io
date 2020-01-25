@@ -184,3 +184,6 @@ body {
 .loaded .preloader {
   display: none;
 }
+.key-words{
+  display: none;
+}
