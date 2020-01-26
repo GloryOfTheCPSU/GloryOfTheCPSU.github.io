@@ -50,18 +50,21 @@
     z-index: 9999;
     width: 45px;
     height: 45px;
-    border-radius: 50%;
+    border-radius: 90% 0px ;
     text-align: center;
-    font-size: 36px;
-    color: #6c2020;
+    font-size: 24px;
+    color: #17b21d;
+    background: #17b21d;
     cursor: pointer;
     display: block;
+    padding: 20px 0px 0px 0px;
+  
   }
 
   .up_down_btn:hover {
     text-decoration: none;
-    background: #6c2020;
-    color: #17b21d
+    background: #17b21d;
+    color: #f5ff00;
   }
 
   .up_down_btn-show {

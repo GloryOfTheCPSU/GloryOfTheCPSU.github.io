@@ -106,14 +106,17 @@ body {
 }
 
 .detail-image-title {
-  color: #fff;
-  font-size: 27px;
+  color: #26c400;
+  font-size: 38px;
+  font-weight: bold;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Open Sans', sans-serif;
   position: absolute;
-  bottom: 10px;
-  right: 20%;
+  bottom: 0;
+  left: 0;
+
+
 }
 
 .detail-image {
