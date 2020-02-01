@@ -79,6 +79,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: rgb(255, 255, 255);
+  padding: 0px 10px;
 
 }
 
@@ -122,13 +123,12 @@ body {
 
 .detail-image {
   border-radius: 50%;
-  
-  width: 85%;
+  width: 90%;
+  height: 100%;
   box-sizing: border-box;
   border: 22px solid  rgba(0, 255, 118, 0.37);
   border-right: 0px;
   border-bottom: 0px;
-  max-height: 100vh;
   box-shadow: 22px 22px rgba(151, 115, 193, 0.46);
 }
 
