@@ -5,6 +5,7 @@ window.onload = function () {
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }
+
 let upDownBtn = document.querySelector('.up_down_btn');
 let check;
 
@@ -52,6 +53,8 @@ function backToTop() {
 }
 window.addEventListener('scroll', trackScroll);
 upDownBtn.addEventListener('click', backToTop);
+
+
 const DETAIL_IMAGE_SELECTOR = '[data-image-role="target"]'; //увеличенное изображение
 const DETAIL_TITLE_SELECTOR = '[data-image-role="title"]';
 const THUMBNAIL_LINK_SELECTOR = '[data-image-role="trigger"]';
@@ -85,7 +88,7 @@ function addThumbClickHandler(thumb) {
     event.preventDefault();
     setDetailsFromThumb(thumb);
     showDetails();
-    ``
+    
   })
 }
 
