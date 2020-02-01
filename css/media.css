@@ -3,43 +3,37 @@
     flex-direction: row;
     overflow: hidden;
   }
-
   .thumbnail-item {
     max-width: 90px;
     min-width: 40px;
    
   }
-
   .thumbnail-list {
     background-color: inherit;
     flex-direction: column;
     order: 0 !important;
    padding: 0px 30px 0px 4px;
-    
- 
   }
-  
 .detail-image {
   border: 32px solid  rgba(0, 255, 118, 0.37);
   border-right: 0px;
   border-bottom: 0px;
   box-shadow: 32px 32px rgba(151, 115, 193, 0.46);
-
 }
   .detail-image-container {
     align-items: flex-start !important;
      position: fixed;
     left: 20%;
   }
-
   .detail-image-wrapper {
     display: flex;
     flex-direction: column;
     margin: 20px 0 0 5px;
-    width: 70vw;
     height: 100vh;
+    width: 70vw;
+   /* width: 70vw;
+    height: 100vh;*/
   }
-
   .detail-image-title {
     position: relative;
     font-size: 2.5em;

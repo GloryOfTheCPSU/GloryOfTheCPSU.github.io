@@ -123,8 +123,7 @@ body {
 
 .detail-image {
   border-radius: 50%;
-  width: 90%;
-  height: 100%;
+  max-width: 90%;
   box-sizing: border-box;
   border: 22px solid  rgba(0, 255, 118, 0.37);
   border-right: 0px;
