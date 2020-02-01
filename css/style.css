@@ -123,12 +123,14 @@ body {
 
 .detail-image {
   border-radius: 50%;
-  max-width: 90%;
+  width: 90%;
+  height: 100vh;
   box-sizing: border-box;
   border: 22px solid  rgba(0, 255, 118, 0.37);
   border-right: 0px;
   border-bottom: 0px;
   box-shadow: 22px 22px rgba(151, 115, 193, 0.46);
+  
 }
 
 
