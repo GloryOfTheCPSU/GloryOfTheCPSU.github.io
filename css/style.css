@@ -65,10 +65,12 @@ body {
   margin-bottom: 10px;
 }
 .thumbnail-image {
-  width: 100%;
-  border: 12px solid rgba(255, 167, 0, 0.8);
+  width: 62%;
+  border: 17px solid rgba(255, 167, 0, 0.8);
   margin-bottom: -6px;
-  border-radius: 50px 30px;
+  border-radius: 37px 30px;
+  border-top: 9px  solid rgba(255, 167, 0, 0.8);
+  border-bottom: 7px  solid rgba(255, 167, 0, 0.8);
 
 }
 
