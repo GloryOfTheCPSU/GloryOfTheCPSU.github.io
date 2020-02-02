@@ -19,6 +19,7 @@
   border-right: 0px;
   border-bottom: 0px;
   box-shadow: 32px 32px rgba(151, 115, 193, 0.46);
+  height: 100vh;
 }
   .detail-image-container {
     align-items: flex-start !important;
@@ -28,8 +29,8 @@
   .detail-image-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 20px 0 0 5px;
-    width: 70vw;
+    margin: 20px 0px 0px 5px;
+    
   }
   .detail-image-title {
     position: relative;
